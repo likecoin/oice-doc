@@ -1,14 +1,5 @@
-# Q5 退場Block VS 退場Attribute
+# Q5 如何使用標籤？
 
-Block的情況：右邊角色退場、左邊角色退場、消除文字框是三個block，三個同時使用時，會順block的次序逐個淡出。
+A標籤可以用於跳轉和選項功能。在跳轉或選項功能裡面設定要跳至頁面的目標名稱。然後將目標場景前面放標籤組件，并將該標籤命名為之前設定的目標名稱。請注意：該標籤是代表此組件之下的所有場景。如果下面有不屬於此目標的場景，需要以另一個標籤將其分開。
 
-http://oice.lakoo.com/story/a8ff6b8bca844b0186778d6a8adbe05a
-
-Attribute的情況：在背景中有個角色退場和文字框消除的Attribute，使用時是三個同時淡出。
-
-http://oice.lakoo.com/story/451f1162f5404657a3dba3053eb1f996
-
-以上方法各有各差，以下是目前調整得最理想的過場方式。
-使用黑色背景進行Attribute淡出，配以兩倍切換時間(1.4秒)
-
-http://oice.lakoo.com/story/28070bd147a24435a9ddbd7a8948c4ea
+![](resources/D5133737A37AB1B9C5F68E273CA757AB.png)
